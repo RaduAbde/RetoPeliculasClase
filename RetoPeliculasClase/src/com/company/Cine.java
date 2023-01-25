@@ -18,7 +18,7 @@ public class Cine {
         BufferedReader br = null;
         try {
 
-            archivo = new File("/home/ALU1W/Escritorio/RetoPeliculasClase/peliculas.txt");
+            archivo = new File("./RetoPeliculasClase/peliculas.txt");
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
 
@@ -54,7 +54,7 @@ public class Cine {
 
         try {
 
-            archivo = new File("/home/ALU1W/Escritorio/RetoPeliculasClase/peliculas.txt");
+            archivo = new File("./RetoPeliculasClase/peliculas.txt");
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
 
